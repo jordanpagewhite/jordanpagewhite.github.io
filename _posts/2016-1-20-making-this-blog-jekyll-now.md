@@ -18,5 +18,5 @@ I have been, perhaps passively, trying to start this blog for almost a year now 
 
 ### Sources
 
-[Build a blog with jekyll and github pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+[Build a blog with jekyll and github pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)  
 [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
