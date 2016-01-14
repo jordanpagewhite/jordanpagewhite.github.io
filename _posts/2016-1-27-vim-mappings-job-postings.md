@@ -82,3 +82,8 @@ This mapping will turn text from Word like 'Example:' into `<p><strong>Example</
 ### That's all folks
 
 Hopefully my quest to craft really specific Vim mappings was helpful. I am sure/hopeful that nobody will benefit from these mappings directly, but I do hope that my thorough description of the mappings can help convince other Vim'rs to consider crafting ridiculously specific, but efficient, mappings for repetitive tasks that they are required to complete in their jobs.
+
+### Sources
+
+[tpope/vim-surround](https://github.com/tpope/vim-surround)
+[tpope/vim-repeat](https://github.com/tpope/vim-repeat)
