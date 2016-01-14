@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Drupal 8: hook_form_alter 
+title: Drupal 8: `hook_form_alter()`
 ---
 
-I am developing a Drupal 8 site right to manage scholarships and scholarship applications at the university. I wanted to add a bunch of custom fields to User and group them with the field_group module, but field_group generated an error that caused White Screen of Death (WSOD) up on adding a field group. I reported the error to the module maintainer, but he seemed to denounce the possibility that it generated an error in his response to me.
+I am developing a Drupal 8 site right to manage scholarships and scholarship applications at the university. I wanted to add a bunch of custom fields to User and group them with the `field_group` module, but `field_group` generated an error that caused White Screen of Death (WSOD) up on adding a field group. I reported the error to the module maintainer, but he seemed to denounce the possibility that it generated an error in his response to me.
 
-Since I am on a deadline, I decided to find a solution that didn't use field_group.
+Since I am on a deadline, I decided to find a solution that didn't use `field_group`.
 
 
-I'll paste my code below. I tried to add verbose comments to explain my thought process. I know that this is really only a solution to this specific problem, but I hope that this can help anyone who experiences the same issue with field_group that I experienced. I am sure that field_group will release a version to address this issue at some point and this post will become somewhat irrelevant. If anyone has an idea for a better solution to this problem, I'd be excited to hear your solution and talk about it.
+I'll paste my code below. I tried to add verbose comments to explain my thought process. I know that this is really only a solution to this specific problem, but I hope that this can help anyone who experiences the same issue with `field_group` that I experienced. I am sure that `field_group` will release a version to address this issue at some point and this post will become somewhat irrelevant. If anyone has an idea for a better solution to this problem, I'd be excited to hear your solution and talk about it.
 
 ```php
 /**
@@ -48,4 +48,4 @@ function fpud8_form_user_register_form_alter(&$form, \Drupal\Core\Form\FormState
 }
 ```
 
-As you can see in the code, I need two field groups: permanent_address and contact_address, and I am finding fields to add to each field group by prepending the fields with the $address_type.
+As you can see in the code, I need two field groups: `permanent_address` and `contact_address`, and I am finding fields to add to each field group by prepending the fields with the `$address_type`.
