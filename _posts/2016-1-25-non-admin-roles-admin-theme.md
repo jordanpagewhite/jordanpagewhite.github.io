@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Non-admin roles adding/editing content using admin theme
-categories: drupal, drupal7, drupal8, drupalplanet
+categories: [drupal, drupal7, drupal8, drupalplanet]
 ---
 
 I ran into a recent surprise while working with some content editors on an academic catalog website. I sat down with them to walk through some issues they experienced with speciic content editing tasks. To my surprise, when they went into the Edit view, ex. /node/1/edit, the university theme was still being used instead of the admin theme (I think I was using Seven or Admininal). I was pretty sure that I clicked the checkbox to use the admin theme on content editing pages on the Admin > Appearance page. Let me paste a screenshot below.

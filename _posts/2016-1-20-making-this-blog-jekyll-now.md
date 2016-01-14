@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World! Making this blog w/ Jekyll Now 
+category: jekyll
 ---
 
 I first published this blog to jordanpagewhite.github.io around January 10, 2016. I started this blog for a lot of reasons, but some of the main reasons are (in no particular order):
