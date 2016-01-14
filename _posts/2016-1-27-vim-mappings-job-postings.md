@@ -85,5 +85,5 @@ Hopefully my quest to craft really specific Vim mappings was helpful. I am sure/
 
 ### Sources
 
-[tpope/vim-surround](https://github.com/tpope/vim-surround)
+[tpope/vim-surround](https://github.com/tpope/vim-surround)  
 [tpope/vim-repeat](https://github.com/tpope/vim-repeat)
