@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Drupal 8, `hook_form_alter()`
+title: Drupal 8, hook_form_alter()
 ---
 
 I am developing a Drupal 8 site right to manage scholarships and scholarship applications at the university. I wanted to add a bunch of custom fields to User and group them with the `field_group` module, but `field_group` generated an error that caused White Screen of Death (WSOD) up on adding a field group. I reported the error to the module maintainer, but he seemed to denounce the possibility that it generated an error in his response to me.
