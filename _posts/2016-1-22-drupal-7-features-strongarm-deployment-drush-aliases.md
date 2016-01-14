@@ -4,13 +4,6 @@ title: Drupal Features, Strongarm, Deployment Module, and Drush Aliases
 categories: [drupal, drupalplanet, drupal7]
 ---
 
-##### Overview
-
-* Creating modules in admin UI using Features
-* Managing variables with Strongarm
-* Updating dev, staging, and production environments with a deployment module and `hook_update_N()`
-* Creating drush aliases `@local`, `@dev`, `@stage`, `@prod` to easily run commands between environments
-
 ### Why?
 
 Features allows you to bundle entities, and their configurations, into a feature module that is written to code. So, what is so great about that? Can't you accomplish the same functionality by building out your views, content types, etc. through the Drupal admin UI. Yes, you can, but all of the entities and configuration will be saved in the database, as opposed to in code. Saving your entities and configuration to code is an immense benefit, if not necessary, for Drupal sites that are deployed across multiple environments, and even more if there are multiple developers working on the site.

@@ -4,18 +4,6 @@ title: Vim Mappings, converting non-HTML to HTML quickly
 category: vim
 ---
 
-### Summary
-
-* Download `tpope/vim-surround` and `tpope/vim-repeat`
-* Turn Word bullet lists into html unordered lists
-  * `map <Leader>b vip:normal 2x<CR>vip:normal yss<li><CR>ysip<ul>`
-* Turn Word headers into html headers
-  * `yss<h3><CR>` 
-* Turn Word subheaders into html subheaders
-  * `map <Leader>N 0v/:<CR>S<p>0/:<CR>xysit<strong>`
-
-### Background
-
 At the university that I currently work at, one of the Webteam's responsibilities is managing the content of many of the sites we develop and maintain. This can sometimes turn into a huge time sink since requests are constantly streaming in. We have a student worker that can handle most of these tasks, but there are occasionally content tasks that require a better understanding of Drupal or are simply a waste of her time.
 
 One request that we receive many times a week is to post an open position to the main university website. Due to reason that aren't worth discussing, the job postings aren't and won't be a content type on that website, they are simply a Basic Page. So, we are tasked to turn a .doc file into HTML and then create a Basic Page with that HTML.
