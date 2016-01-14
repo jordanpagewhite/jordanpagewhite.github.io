@@ -12,4 +12,7 @@ I manage the digital analytics at the university, and I was trained by Luna Metr
 
 ### Contact me
 
-[@jordanpagewhite](https://twitter.com/jordanpagewhite)
+twitter: [@jordanpagewhite](https://twitter.com/jordanpagewhite)
+gmail: [jordan.page.white@gmail.com](mailto:jordan.page.white@gmail.com)
+drupal: [/u/jordanpagewhite](https://www.drupal.org/u/jordanpagewhite)
+
