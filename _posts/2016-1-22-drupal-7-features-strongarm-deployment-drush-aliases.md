@@ -30,15 +30,15 @@ Now you have your own Staff Listing feature module that contains all of the func
 
 Okay, so now you're probably thinking that we should just put all of our changes into our VCS and commit it to the repository and move it to a development or testing environment. There is one last thing that we can do to save all the other developers on our team time, and help prevent potential human error.
 
-We will create a custom deployment module and use the hook_update_N function to automatically enable the feature module upon deployment. So, now we will actually get into our editor and write some code. Yay!
+We will create a custom deployment module and use the `hook_update_N` function to automatically enable the feature module upon deployment. So, now we will actually get into our editor and write some code. Yay!
 
-If you're interested in learning more about how you can use a site deployment module and hook_update_N to make your life easier, check out **THIS POST**
+If you're interested in learning more about how you can use a site deployment module and `hook_update_N` to make your life easier, check out **THIS POST**
 
 We will start by creating these 3 files:
 
-* site_deployment.info
-* site_deployment.module
-* site_deployment.install
+* `site_deployment.info`
+* `site_deployment.module`
+* `site_deployment.install`
 
 ##### site_deployment.info
 
@@ -75,7 +75,7 @@ We will start by creating these 3 files:
 
 ### Using `@local`, `@dev`, `@stage`, `@prod` Drush aliases
 
-Now you can commit all of your changes, merge your branch with master, and push your code to your development environment. We will have to run update.php to enable our feature module using the hook_update_N function in our deployment module. You could run it in the browser, but that's super lame and requires you take your hands of the keyboard. So, we will set up Drush aliases for each of our environments, which will make running update.php from the terminal trivial. Drush aliases, in general, just make your life easier, I have a blog post **(LINK TO BLOG POST)** here that demonstrates some of the most frequently useful drush commands that you can take advantage of with your new drush aliases.
+Now you can commit all of your changes, merge your branch with master, and push your code to your development environment. We will have to run update.php to enable our feature module using the `hook_update_N` function in our deployment module. You could run it in the browser, but that's super lame and requires you take your hands of the keyboard. So, we will set up Drush aliases for each of our environments, which will make running update.php from the terminal trivial. Drush aliases, in general, just make your life easier, I have a blog post **(LINK TO BLOG POST)** here that demonstrates some of the most frequently useful drush commands that you can take advantage of with your new drush aliases.
 
 ### Deploying your features module and deployment module
 
