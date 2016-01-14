@@ -10,4 +10,6 @@ So, it turns out I did check that box, so how could it be possible that these co
 
 I hope that this can help someone else out there who hasn't run into this problem before. This was the first Drupal website that I developed at the university that had non-admin content editors. All of the other Drupal websites that I've developed at the university have had their content managed by my department by users with admin, or near admin, roles.
 
-**Source:** I have to give some obligatory credit to my tallest coworker, Lead Developer, rival, BFF, oldest web developer at the university: Justin Gable for leading me to this permission. His aged, sage wisdom rivals only Gandalf himself.
+### Sources
+
+I have to give some obligatory credit to my tallest coworker, Lead Developer, rival, BFF, and the oldest web developer at the university, Justin Gable, for directing me to this permission. THNX D00D!
