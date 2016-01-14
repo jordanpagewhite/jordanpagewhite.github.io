@@ -25,16 +25,21 @@ To use this mapping appropriately, position your cursor within an unordered list
 ```vim
 vip:normal 2x<CR>
 ```
+
   1. Enter visual mode and select the inner paragraph
   2. Delete the first 2 characters of each line of the selection
+
 ```vim
 vip:normal yss<li><CR>
 ```
+
   1. Enter visual mode and select the inner paragraph
   2. Wrap an `<li>` tag around each line in the selection
+
 ```vim
 ysip<ul>
 ```
+
   1. Wrap an `<ul>` tag around the inner paragraph
 
 Since I can expect the Word documents we receive to follow a certain format, I know that when I execute this command in an unordered Word list, it will replace it with an unordered HTML list. Since we are using the inner paragraph Vim noun, we will require line breaks between the Word list and other text in the document.
@@ -59,12 +64,15 @@ This mapping will turn text from Word like 'Example:' into `<p><strong>Example</
 ```vim
 0v/:<CR>S<p>
 ```
+
   1. Go to the beginning of the line
   2. Enter visual mode and select everything up to, and including, the next colon
   3. Wrap the selection with a `<p>` tag
+
 ```vim
 0/:<CR>xysit<strong>
 ```
+
   1. Go to the beginning of the line
   2. Search for the next colon
   3. Delete that colon
