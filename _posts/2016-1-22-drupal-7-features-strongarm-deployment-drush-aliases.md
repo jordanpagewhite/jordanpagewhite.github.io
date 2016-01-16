@@ -6,11 +6,11 @@ categories: [drupal, drupalplanet, drupal7]
 
 Features allows you to bundle entities, and their configurations, into a feature module that is written to code. So, what is so great about that? Can't you accomplish the same functionality by building out your views, content types, etc. through the Drupal admin UI. Yes, you can, but all of the entities and configuration will be saved in the database, as opposed to in code. Saving your entities and configuration to code is an immense benefit, if not necessary, for Drupal sites that are deployed across multiple environments, and even more if there are multiple developers working on the site.
 
-Say you're tasked with creating a staff listing feature. You could create a feature that contains a Staff content type and a Staff Listing view. Drupal will create the feature module, in code, which allows the developer to track everything in their version control system (Git, SVN, etc.). Now, using a deployment module magic that I will cover later, another developer can simply pull down the repo and they will have the Staff Listing feature module, with all of the functionality and configuration. Furthermore, you can just push your changes to any of your other environments (dev, stage, prod), run updb with drush (I'll cover this later), and the Staff Listing feature module will already be enabled.
+Say you're tasked with creating a staff listing feature. You could create a feature that contains a Staff content type and a Staff Listing view. Drupal will create the feature module, in code, which lets you track everything (Git, SVN, etc.). Now, using a deployment module that I will cover later, another developer can simply pull down the repo and they will have the Staff Listing feature module, with all of the functionality and configuration. Furthermore, you can just push your changes to any of your other environments (dev, stage, prod), run updb with drush (I'll cover this later), and the Staff Listing feature module will already be enabled.
 
 ### Staff Listing feature module
 
-*I won't cover the creation of the content type or view in this post, but all of the code is available on my Github account jordanpagewhite.*
+*I won't bother detailing the creation of the content type or view in this post. There are tons of good, verbose tutorials on those topics.*
 
 Now, marvel at how insanely easy it is to put all of this functionality and configuration into code with a feature module.
 
@@ -31,8 +31,6 @@ Now you have your own Staff Listing feature module that contains all of the func
 Okay, so now you're probably thinking that we should just put all of our changes into our VCS and commit it to the repository and move it to a development or testing environment. There is one last thing that we can do to save all the other developers on our team time, and help prevent potential human error.
 
 We will create a custom deployment module and use the `hook_update_N` function to automatically enable the feature module upon deployment. So, now we will actually get into our editor and write some code. Yay!
-
-If you're interested in learning more about how you can use a site deployment module and `hook_update_N` to make your life easier, check out **THIS POST**
 
 We will start by creating these 3 files:
 
@@ -75,7 +73,7 @@ We will start by creating these 3 files:
 
 ### Using `@local`, `@dev`, `@stage`, `@prod` Drush aliases
 
-Now you can commit all of your changes, merge your branch with master, and push your code to your development environment. We will have to run update.php to enable our feature module using the `hook_update_N` function in our deployment module. You could run it in the browser, but that's super lame and requires you take your hands of the keyboard. So, we will set up Drush aliases for each of our environments, which will make running update.php from the terminal trivial. Drush aliases, in general, just make your life easier, I have a blog post **(LINK TO BLOG POST)** here that demonstrates some of the most frequently useful drush commands that you can take advantage of with your new drush aliases.
+Now you can commit all of your changes, merge your branch with master, and push your code to your development environment. We will have to run `update.php` to enable our feature module using the `hook_update_N` function in our deployment module. You could run it in the browser, but that's super lame and requires you take your hands of the keyboard. So, we will set up Drush aliases for each of our environments, which will make running `update.php` from the terminal trivial.
 
 ### Deploying your features module and deployment module
 
