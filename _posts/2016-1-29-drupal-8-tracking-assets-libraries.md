@@ -34,7 +34,7 @@ copy: {
 
 Then I can declare Foundation and Modernizr as libraries in my theme's `theme.libraries.yml` file:
 
-```yml
+```yaml
 foundation:
   version: VERSION
   js:
