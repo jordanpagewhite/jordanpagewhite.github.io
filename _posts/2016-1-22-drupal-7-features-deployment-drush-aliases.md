@@ -82,3 +82,13 @@ Now you can commit all of your changes, merge your branch with master, and push 
 ```
 
 With that, your Staff Listing features module will be installed and enabled in the development environment. You can do whatever QA you have to do, and then just simply rinse and repeat for `@stage` and `@prod`.
+
+### Notes about Drupal 8 and Features module
+
+I won't bother saying much here about this topic because there is an awesome podcast on Modules Unraveled that covers this topic in its entirety. [Future of Features module in Drupal 8 with Mike Potter](https://modulesunraveled.com/podcast/143-role-features-drupal-8-mike-potter-modules-unraveled-podcast)
+
+### Sources
+
+[Automate Drupal site updates with a deployment module](http://befused.com/drupal/site-deployment-module)  
+[Run Drupal updates directly after enabling a deployment module](http://www.deliciouscreative.com/blog/run-drupal-updates-directly-after-enabling-deployment-module)  
+[Future of Features module in Drupal 8 with Mike Potter](https://modulesunraveled.com/podcast/143-role-features-drupal-8-mike-potter-modules-unraveled-podcast)
