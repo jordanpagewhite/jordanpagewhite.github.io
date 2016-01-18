@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Drupal Features, Strongarm, Deployment Module, and Drush Aliases
+title: Drupal Features, Deployment Module, and Drush Aliases
 categories: [drupal, drupalplanet, drupal7]
 ---
 
