@@ -51,6 +51,6 @@ function fpud8_form_user_register_form_alter(&$form, \Drupal\Core\Form\FormState
 
 As you can see in the code, I need two field groups: `permanent_address` and `contact_address`, and I am finding fields to add to each field group by prepending the fields with the `$address_type`.
 
-I am hoping that this somewhat inelegant, temporary solution will be exactly that, a good, reliable, but temporary solution. The `field_group` module is still in active development, just like almost all Drupal 8 contrib modules. I'm going to have to find some time to debug the issue myself and see if I can contribute to `field_group` myself by resolvign this issue. 
+I am hoping that this somewhat inelegant, temporary solution will be exactly that, a good, reliable, but temporary solution. The `field_group` module is still in active development, just like almost all Drupal 8 contrib modules. I'm going to have to find some time to debug the issue myself and see if I can contribute to `field_group` myself by resolving this issue. 
 
 **Update:** [zuuperman](https://www.drupal.org/u/zuuperman), one of the maintainers of `field_group`, said that a patch should be released soon in [this issue thread](https://www.drupal.org/node/2611634).
