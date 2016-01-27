@@ -78,7 +78,7 @@ Now you can commit all of your changes, merge your branch with master, and push 
 ### Deploying your features module and deployment module
 
 ```
-@dev drush updb
+drush @dev updb
 ```
 
 With that, your Staff Listing features module will be installed and enabled in the development environment. You can do whatever QA you have to do, and then just simply rinse and repeat for `@stage` and `@prod`.
