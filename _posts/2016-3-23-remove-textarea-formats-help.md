@@ -8,7 +8,7 @@ I'm working on a project now in which a particular role is restricted to a singl
 
 ![before](https://www.drupal.org/files/issues/Create%20Article%20%7C%20Site-Install%202015-01-24%2001-22-12.jpg)
 
-Image credit: drupal.org
+[Image credit](https://www.drupal.org/node/2413335)
 
 I thought that this was confusing and unnecessary, so I decided to remove it. Here is a very simple way that I removed the link and the unnecessary box around the link.
 
