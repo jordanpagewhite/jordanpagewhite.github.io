@@ -221,3 +221,6 @@ class BaseUrlForm extends ConfigFormBase {
 
 }
 ```
+
+### Sources
+I don't really remember because I wrote this so long along. I think the d.o. change record for Guzzle and probably some d.o. threads and StackOverflow. :(
