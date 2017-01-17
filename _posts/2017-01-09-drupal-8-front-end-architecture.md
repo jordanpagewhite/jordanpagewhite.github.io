@@ -419,6 +419,10 @@ I am not, exclusively, a front-end developer so if you are a front-end expert an
 
 I did not use every one of these sources in my post obviously, but I have used all of these resources in some capacity and I wanted to generate a comprehensive set of front-end sources since this post was so expansive. Also, I just want to thank all of the people who kindly share knowledge!
 
+#### UPDATE (01/17/17)
+
+I made a mistake and listed Aleski Peebles and John Albin on the same line. below you will find the updated, and accurate, sources. Thank you, Aleski, for notifying me of my mistake.
+
 #### Books (BK)
 
 Credit: I am using the phrase 'four pillars of front-end architecture' from Micah Godbolt's book below. Thank you for an awesome book!
@@ -488,9 +492,10 @@ Credit: I am using the phrase 'four pillars of front-end architecture' from Mica
 
 #### Open-source Drupal 8 themes with PatternLab or KSS-Node integration (THE)
 
-1. [Aleksi Peebles and John Albin, Zen](https://www.drupal.org/project/zen)  
-2. [Forum One, gesso](https://github.com/forumone/gesso/tree/8.x-1.x)  
-3. [Four Kitchens, emulsify](https://github.com/fourkitchens/emulsify)  
+1. [Aleski Peebles, Shila](https://github.com/aleksip/shila-drupal-theme/)  
+2. [John Albin, Zen](https://www.drupal.org/project/zen)  
+3. [Forum One, gesso](https://github.com/forumone/gesso/tree/8.x-1.x)  
+4. [Four Kitchens, emulsify](https://github.com/fourkitchens/emulsify)  
 4. [Phase 2, pattern-lab-starter](https://github.com/phase2/pattern-lab-starter)  
 5. [Zivtech, Bear Skin (Pattern Lab Integrated)](https://www.drupal.org/project/bear_skin)
 
